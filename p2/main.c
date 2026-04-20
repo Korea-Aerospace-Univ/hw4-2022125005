@@ -61,7 +61,7 @@ int main(void) {
             if (intcount > biggestint) {
                 biggestint = intcount;
             }
-            intcount = 0;
+            intcount = 0; // 숫자 반복되던 거 중단 및 초기화
         }
 
         // 입력받은 문자가 숫자일 때
@@ -77,7 +77,7 @@ int main(void) {
             if (mmmcount > biggestmmm) {
                 biggestmmm = mmmcount;
             }
-            mmmcount = 0;
+            mmmcount = 0; // 문자 반복되던 거 중단 및 초기화
         }
 
         // 반복 종료 조건 : 
